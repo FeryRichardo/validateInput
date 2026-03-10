@@ -1,5 +1,5 @@
-const { PeismaClient } = require('@prisma/client');
+const { PrismaClient } = require('@prisma/client');
 
-const prisma = new PeismaClient();
+const prisma = new PrismaClient();
 
 module.exports = prisma;
